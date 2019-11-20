@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Font Awesome Icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Script font for logo -->
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
     <!-- Other CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
 
@@ -22,7 +24,7 @@
             <div class="row"> <!-- Nav bar -->
                 <div class="col border">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Navbar</a> <!--TODO: ADD LOGO IMAGE-->
+                        <div class="logoFont" style="margin-right: 5px;">The Essex Studios</div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -88,10 +90,8 @@
         </div>
     </div>
 
-    <div class="row"> <!-- Splash image -->
-        <div class="col centerText border">
-            SPLASHIMAGE
-        </div>
+    <div class="row"> <!-- Banner -->
+        <img class="banner" src="./img/banner.jpg" alt="banner.jpg">
     </div>
 
     <div class="container"> <!-- Main content -->
@@ -104,13 +104,21 @@
 
     <div class="row"> <!-- Footer -->
         <div class="col-4 centerText border"> <!-- Logo/Blurb-->
-            LOGO/BLURB
+            <img src="./img/logo.png" alt="logo.png" style="height: 100px;">
+            <p class="centerText">CINCINNATI'S MOST DIVERSE COLLECTION OF TALENT UNDER ONE ROOF!</p>
         </div>
-        <div class="col-4 centerText border"> <!-- Social media logos-->
-            SOCIALMEDIA
+        <div class="col-4 pt-3 centerText border"> <!-- Social media logos-->
+            <a class="smIcon" href=""><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+            <a class="smIcon" href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            <a class="smIcon" href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
         </div>
-        <div class="col-4 centerText border"> <!-- Address/Email -->
-            ADDRESS
+        <div class="col-4 border" style="text-align: right;"> <!-- Address/Email -->
+            <span class="font-weight-bold">Trent Heimann, Building Owner</span> <br>
+            2511 Essex Place, #114 <br>
+            Cincinnati, Ohio 45206 <br>
+            Phone: 513-476-2107 <br>
+            Email: <a href="mailto:EssexStudio@aol.com">EssexStudo@aol.com</a>
+
         </div>
     </div>
 
