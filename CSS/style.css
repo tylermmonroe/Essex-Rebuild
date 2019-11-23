@@ -1,22 +1,32 @@
 .border {
     border: solid 1px black;
 }
+
+.current {
+    font-weight: bold;
+}
+
 .centerText {
     text-align: center;
 }
+
 .logoFont {
     font-family: 'Yellowtail', cursive;
     color: #8DC19C;
     font-size: 24px;
 }
+
 .smIcon {
     color: #333;
     margin: 0px 3px 0px 3px;
 }
+
 .smIcon a:hover {
     color: #3773a4;
 }
+
 .banner {
-    height:300px;
+    height: 300px;
     width: 100%;
 }
+
